@@ -1,0 +1,8 @@
+{
+    "server": {
+        "port": 8080
+    },
+    "db": {
+        "comment": "Database connection settings on seperateFile"
+    }
+}

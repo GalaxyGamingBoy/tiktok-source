@@ -1,0 +1,1 @@
+@pg_ctl -o "-F -p 9191" -D res/db start

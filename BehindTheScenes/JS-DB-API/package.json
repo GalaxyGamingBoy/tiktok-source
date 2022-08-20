@@ -1,0 +1,19 @@
+{
+  "name": "js-db-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pg:init": "pg_ctl init -D res/db",
+    "pg:createdb": "createdb -h 127.0.0.1 -p 9191 db",
+    "api": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GalaxyGamingBoy",
+  "license": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  }
+}
